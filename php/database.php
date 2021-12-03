@@ -46,7 +46,7 @@ function addNewUser($empID,$passwd,$empName,$DoJ,$salary,$department,$mobileNo,$
     mysqli_stmt_bind_param($query, "ssssdsss", $empID,$passwd,$empName,$DoJ,$salary,$department,$mobileNo,$email);
     mysqli_stmt_execute($query);
     $result = mysqli_stmt_get_result($query);
-    print_r($result);
+
 }
 
 function updateEmail($empID,$email){

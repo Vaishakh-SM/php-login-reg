@@ -43,7 +43,8 @@ if(filter_var($email, FILTER_VALIDATE_EMAIL) == false){
 
 // Check if salary is a number
 
-if(is_numeric($mobileNo) === false){
+
+if(is_numeric($salary) === false){
     array_push($errors, "Salary is not an integer");
 }
 
