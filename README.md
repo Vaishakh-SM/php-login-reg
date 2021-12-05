@@ -1,5 +1,5 @@
 Interesting! Seems like you made it here!
-(Make a Random Pull Request if you did)
+(Make a Random Pull Request or open an issue if you did)
 
 Here you go, congrats!
 
